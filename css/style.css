@@ -150,9 +150,57 @@ footer {
 }
 
 .pricing-text {
+	font-size: 22px;
 	text-align: center;
 	vertical-align: middle;
 	font-family: 'Roboto';
 	padding-top: 20px;
 	color: #4D4D4D;
+}
+
+.creditcards-text {
+	color: #fefefe;
+	text-align: center;
+	font-size: 24px;
+	padding-top: 40px;
+}
+
+.signup-text {
+	color: #4D4D4D;
+	font-size: 26px;
+	text-align: center;
+	padding-top: 25px;
+	line-height: 1.2;
+}
+
+.signup-text2 {
+	color: #4D4D4D;
+	font-size: 26px;
+	text-align: center;
+	padding-top: 15px;
+	line-height: 1.5;
+}
+
+span {
+	font-weight: bold;
+}
+
+button {
+
+	display: block;
+	position: relative;
+}
+
+.btnAccount {
+	text-align: center;
+	background-color: #00B289;
+	border-radius: 2px;
+	color: #fff;
+	text-decoration: none;
+	width: 250px;
+	height: 35px;
+	display: block;
+	position: absolute;
+	border-radius: 2px;
+	border: none;
 }
