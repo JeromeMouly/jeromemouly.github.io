@@ -1,4 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Bubbler+One');
+
 /* Custom Stylesheet */
+
+
 /**
  * Use this file to override Materialize files so you can update
  * the core Materialize files in the future
@@ -6,52 +10,108 @@
  * Made By MaterializeCSS.com
  */
 
+
+/* ----- Menu ----- */
+
 nav ul a,
 nav .brand-logo {
-  color: #444;
+    color: #444;
 }
 
+.menu-link:hover {
+    background-color: #bbdefb;
+    color: #263238 !important;
+    font-family: 'Bubbler One';
+}
+
+.menu-link {
+    font-family: 'Bubbler One';
+}
+
+
+/* ----- End Menu ----- */
+
 p {
-  line-height: 2rem;
+    line-height: 2rem;
 }
 
 .button-collapse {
-  color: #26a69a;
+    color: #26a69a;
 }
+
+
+/* ----- Parallax ----- */
 
 .parallax-container {
-  min-height: 380px;
-  line-height: 0;
-  height: auto;
-  color: rgba(255,255,255,.9);
+    min-height: 380px;
+    line-height: 0;
+    height: auto;
+    color: rgba(255, 255, 255, .9);
 }
-  .parallax-container .section {
+
+.parallax-container .section {
     width: 100%;
-  }
-
-@media only screen and (max-width : 992px) {
-  .parallax-container .section {
-    position: absolute;
-    top: 40%;
-  }
-  #index-banner .section {
-    top: 10%;
-  }
 }
 
-@media only screen and (max-width : 600px) {
-  #index-banner .section {
-    top: 0;
-  }
+.parallax-container.parallax-hero {
+    height: 900px;
+}
+
+.overlay {
+    background-image: url(../images/overlay.png);
+}
+
+.hero-block-title {
+    margin-top: 250px;
+}
+
+.header {
+    font-family: 'Bubbler One';
+}
+
+
+/* ----- End Parallax ----- */
+
+@media only screen and (max-width: 992px) {
+    .parallax-container .section {
+        position: absolute;
+        top: 40%;
+    }
+    #index-banner .section {
+        top: 10%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #index-banner .section {
+        top: 0;
+    }
+    .hero-block-title {
+        margin-top: 75px;
+    }
+    .parallax-container.parallax-hero {
+        height: 620px;
+    }
 }
 
 .icon-block {
-  padding: 0 15px;
-}
-.icon-block .material-icons {
-  font-size: inherit;
+    padding: 0 15px;
 }
 
-footer.page-footer {
-  margin: 0;
+.icon-block .material-icons {
+    font-size: inherit;
 }
+
+
+/* ----- Footer ----- */
+
+footer.page-footer {
+    margin: 0;
+}
+
+.footer-copyright {
+    font-family: 'Bubbler One';
+}
+
+
+/* ----- End Footer ----- */
