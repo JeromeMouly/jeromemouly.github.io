@@ -13,9 +13,9 @@
 
 /* ----- Menu ----- */
 
-nav ul a,
-nav .brand-logo {
-    color: #444;
+
+.navbar {
+    background-color: transparent !important;
 }
 
 .menu-link:hover {
