@@ -14,10 +14,6 @@
 /* ----- Menu ----- */
 
 
-.navbar {
-    background-color: transparent !important;
-}
-
 .menu-link:hover {
     background-color: #bbdefb;
     color: #263238 !important;
@@ -26,6 +22,14 @@
 
 .menu-link {
     font-family: 'Bubbler One';
+}
+
+.active{
+    background-color: #bbdefb !important;
+}
+
+.menu-link-active:active  {
+    color: #263238 !important;
 }
 
 
@@ -54,7 +58,7 @@ p {
 }
 
 .parallax-container.parallax-hero {
-    height: 900px;
+    height: 925px;
 }
 
 .overlay {
@@ -62,11 +66,19 @@ p {
 }
 
 .hero-block-title {
-    margin-top: 250px;
+    margin-top: 200px;
 }
 
 .header {
     font-family: 'Bubbler One';
+}
+
+h1 {
+    font-size: 8rem ;
+}
+
+h4 {
+    font-size: 4rem;
 }
 
 
@@ -87,10 +99,17 @@ p {
         top: 0;
     }
     .hero-block-title {
-        margin-top: 75px;
+        margin-top: 60px;
     }
     .parallax-container.parallax-hero {
         height: 620px;
+    }
+    h1 {
+        font-size: 6rem;
+    }
+
+    h4 {
+        font-size: 3rem;
     }
 }
 
