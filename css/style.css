@@ -10,9 +10,24 @@
  * Made By MaterializeCSS.com
  */
 
+p {
+    line-height: 2rem;
+}
+
+.button-collapse {
+    color: #26a69a;
+}
+
 
 /* ----- Menu ----- */
 
+ul {
+    width: 500px;
+}
+
+li {
+    width: 250px;
+}
 
 .menu-link:hover {
     background-color: #bbdefb;
@@ -24,24 +39,16 @@
     font-family: 'Bubbler One';
 }
 
-.active{
+.active {
     background-color: #bbdefb !important;
 }
 
-.menu-link-active:active  {
+.menu-link-active:active {
     color: #263238 !important;
 }
 
 
 /* ----- End Menu ----- */
-
-p {
-    line-height: 2rem;
-}
-
-.button-collapse {
-    color: #26a69a;
-}
 
 
 /* ----- Parallax ----- */
@@ -74,7 +81,7 @@ p {
 }
 
 h1 {
-    font-size: 8rem ;
+    font-size: 8rem;
 }
 
 h4 {
@@ -107,10 +114,21 @@ h4 {
     h1 {
         font-size: 6rem;
     }
-
     h4 {
         font-size: 3rem;
     }
+}
+
+
+/* ----- Job ----- */
+
+#job {
+    margin-top: 64px;
+}
+
+.title-job {
+    font-family: 'Bubbler One';
+    color: #26a69a;
 }
 
 .icon-block {
@@ -120,6 +138,9 @@ h4 {
 .icon-block .material-icons {
     font-size: inherit;
 }
+
+
+/* ----- End Job ----- */
 
 
 /* ----- Footer ----- */
