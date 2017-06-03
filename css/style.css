@@ -122,10 +122,6 @@ h4 {
 
 /* ----- Job ----- */
 
-.job {
-    margin-top: 64px;
-}
-
 .title-job {
     font-family: 'Bubbler One';
     color: #26a69a;
@@ -137,6 +133,11 @@ h4 {
 
 .icon-block .material-icons {
     font-size: inherit;
+}
+
+.icon-job {
+    color: #26a69a;
+    font-size: 8rem;
 }
 
 
