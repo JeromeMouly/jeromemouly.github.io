@@ -15,7 +15,7 @@ p {
 }
 
 .button-collapse {
-    color: #26a69a;
+    color: #BBDEFB;
 }
 
 
@@ -124,7 +124,8 @@ h4 {
 
 .title-job {
     font-family: 'Bubbler One';
-    color: #26a69a;
+    color: #BBDEFB;
+    margin-top: 68px;
 }
 
 .icon-block {
@@ -136,7 +137,7 @@ h4 {
 }
 
 .icon-job {
-    color: #26a69a;
+    color: #BBDEFB;
     font-size: 8rem;
 }
 
