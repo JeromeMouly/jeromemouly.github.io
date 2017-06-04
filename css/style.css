@@ -80,11 +80,11 @@ li {
     font-family: 'Bubbler One';
 }
 
-h1 {
+.hero-title {
     font-size: 8rem;
 }
 
-h4 {
+.sub-hero-title {
     font-size: 4rem;
 }
 
@@ -111,10 +111,10 @@ h4 {
     .parallax-container.parallax-hero {
         height: 620px;
     }
-    h1 {
+    .hero-title {
         font-size: 6rem;
     }
-    h4 {
+    .sub-hero-title {
         font-size: 3rem;
     }
 }
@@ -124,7 +124,12 @@ h4 {
 
 .title-job {
     font-family: 'Bubbler One';
-    color: #26a69a;
+    color: #bbdefb;
+    margin-top: 70px;
+}
+
+.my-job {
+    color: #bbdefb;
 }
 
 .icon-block {
@@ -136,7 +141,7 @@ h4 {
 }
 
 .icon-job {
-    color: #26a69a;
+    color: #bbdefb;
     font-size: 8rem;
 }
 
