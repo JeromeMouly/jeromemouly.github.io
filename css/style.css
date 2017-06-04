@@ -21,11 +21,11 @@ p {
 
 /* ----- Menu ----- */
 
-ul {
+.start-menu-link {
     width: 500px;
 }
 
-li {
+.block-menu-link {
     width: 250px;
 }
 
@@ -116,6 +116,15 @@ li {
     }
     .sub-hero-title {
         font-size: 3rem;
+    }
+    .start-menu-link {
+        width: 100%;
+    }
+    .block-menu-link {
+        width: 100%;
+    }
+    .menu-link {
+        width: 100%;
     }
 }
 
