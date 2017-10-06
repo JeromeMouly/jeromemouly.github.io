@@ -3,7 +3,7 @@ html {
     height: 100%;
     margin: 0;
     font-family: 'Josefin Sans', sans-serif !important;
-    background-color: #212121;
+    background-color: #1e1e1e;
 }
 
 
@@ -16,7 +16,7 @@ html {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #212121;
+    background-color: #1b1c1d;
     opacity: 0.9;
     overflow-y: hidden;
     transition: 0.5s;
@@ -107,10 +107,53 @@ html {
     cursor: pointer;
 }
 
+.hero-title {
+    font-family: 'Bubbler One', sans-serif;
+    font-size: 8rem;
+}
+
+.hero-subtitle {
+    font-family: 'Bubbler One', sans-serif;
+    font-size: 4rem;
+}
+
 
 /* ----- Job Section ----- */
 
 #job {
     height: 100vh;
     font-family: 'Josefin Sans', sans-serif !important;
+}
+
+.job-title {
+    font-family: 'Bubbler One', sans-serif;
+    font-size: 6rem;
+    color: #5273ff;
+    margin-top: 60%;
+}
+
+.job-left-block {}
+
+.job-right-block {
+    background-color: #404040;
+    height: 100vh;
+}
+
+.top-block-left,
+.top-block-right,
+.bottom-block-left,
+.bottom-block-right {
+    height: 50vh;
+}
+
+.top-block-right {
+    background-color: #353535;
+}
+
+.bottom-block-left {
+    background-color: #353535;
+}
+
+.job-icon-top-left {
+    font-size: 6rem;
 }
