@@ -137,7 +137,7 @@ html {
 .job-left-block {}
 
 .job-right-block {
-    background-color: #404040;
+    background-color: #353535;
     height: 100vh;
 }
 
@@ -149,13 +149,24 @@ html {
 }
 
 .top-block-right {
-    background-color: #353535;
+    background-color: #404040;
 }
 
 .bottom-block-left {
-    background-color: #353535;
+    background-color: #404040;
 }
 
-.job-icon-top-left {
+.job-icon {
     font-size: 6rem;
+    color: #5273ff;
+}
+
+.job-subtitle {
+    color: #5273ff;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2rem;
+}
+
+.content-block {
+    margin-top: 20%;
 }
