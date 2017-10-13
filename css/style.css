@@ -2,8 +2,6 @@ body,
 html {
     height: 100%;
     margin: 0;
-    font-family: 'Josefin Sans', sans-serif !important;
-    background-color: #1e1e1e;
 }
 
 
@@ -16,8 +14,8 @@ html {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #1b1c1d;
-    opacity: 0.9;
+    background-color: #181818;
+    opacity: 0.95;
     overflow-y: hidden;
     transition: 0.5s;
     z-index: 2;
@@ -35,7 +33,7 @@ html {
     padding: 8px;
     text-decoration: none;
     font-size: 36px;
-    color: #818181;
+    color: #0099FF;
     display: block;
     transition: 0.3s;
 }
@@ -53,21 +51,52 @@ html {
 }
 
 .open-menu {
-    position: absolute;
-    z-index: 1;
-    right: 56px;
-    top: 45px;
     cursor: pointer;
+    position: fixed;
+    color: white;
+    z-index: 1;
+    right: 60px;
+    top: 58px;
+}
+
+.home-link {
+    cursor: pointer;
+    position: fixed;
+    z-index: 1;
+    left: 25px;
+    top: 58px;
+    color: #0099FF;
+}
+
+.burger-bar1 {
+    width: 35px;
+    height: 5px;
+    background-color: #0099FF;
+    margin: 6px 0;
+}
+
+.burger-bar2 {
+    width: 30px;
+    height: 5px;
+    background-color: #0099FF;
+    margin: 6px 0;
+}
+
+.burger-bar3 {
+    width: 25px;
+    height: 5px;
+    background-color: #0099FF;
+    margin: 6px 0;
 }
 
 @media screen and (max-height: 450px) {
-    .overlay {
+    .overlay-menu {
         overflow-y: auto;
     }
-    .overlay a {
+    .overlay-menu a {
         font-size: 20px
     }
-    .overlay .closebtn {
+    .overlay-menu .closebtn {
         font-size: 40px;
         top: 15px;
         right: 35px;
@@ -78,13 +107,14 @@ html {
 /* ----- Hero Section ----- */
 
 .hero-image {
-    background-image: url("../images/effet-sketch.JPG");
-    height: 100%;
-    background-attachment: fixed;
+    background-image: url("../images/effet-sketch-overlay.jpg");
     background-position: center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
     position: relative;
+    height: 100vh;
+    width: 100%;
 }
 
 .hero-text {
@@ -96,77 +126,97 @@ html {
     color: white;
 }
 
-.hero-text button {
-    border: none;
-    outline: 0;
-    display: inline-block;
-    padding: 10px 25px;
-    color: black;
-    background-color: #ddd;
-    text-align: center;
-    cursor: pointer;
-}
-
 .hero-title {
     font-family: 'Bubbler One', sans-serif;
-    font-size: 8rem;
-    color: #5273ff;
-}
-
-.hero-subtitle {
-    font-family: 'Bubbler One', sans-serif;
-    font-size: 4rem;
-    color: #5273ff;
+    font-size: 6rem;
+    color: #0099FF;
 }
 
 
-/* ----- Job Section ----- */
+/* ----- Second Section Parallax ----- */
 
-#job {
+.second-parallax-image {
+    background-image: url("../images/446525.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    height: 50vh;
+    width: 100%;
+}
+
+
+/* ----- About Section ----- */
+
+#about {
     height: 100vh;
-    font-family: 'Josefin Sans', sans-serif !important;
+    background-color: #181818;
 }
 
-.job-title {
+.about-left-block {}
+
+.about-right-block {
+    background-color: #121212;
+    height: 100vh;
+    color: #0099FF;
+}
+
+.about-title {
     font-family: 'Bubbler One', sans-serif;
     font-size: 6rem;
-    color: #5273ff;
+    color: #0099FF;
+    margin-top: 40%;
+}
+
+.about-text {
+    margin-top: 38%;
+}
+
+
+/* ----- Services Section ----- */
+
+#service {
+    height: 100vh;
+    background-color: #181818;
+    color: #0099FF;
+}
+
+.service-title {
+    font-family: 'Bubbler One', sans-serif;
+    font-size: 6rem;
     margin-top: 60%;
 }
 
-.job-left-block {}
-
-.job-right-block {
-    background-color: #353535;
-    height: 100vh;
-}
-
-.top-block-left,
-.top-block-right,
-.bottom-block-left,
-.bottom-block-right {
+.left-top-block,
+.right-top-block,
+.left-bottom-block,
+.right-bottom-block {
     height: 50vh;
 }
 
-.top-block-right {
-    background-color: #404040;
+.left-top-block,
+.right-bottom-block {
+    background-color: #a2a2a2;
 }
 
-.bottom-block-left {
-    background-color: #404040;
+.right-top-block,
+.left-bottom-block {
+    background-color: #747474;
 }
 
-.job-icon {
+.service-icon {
+    margin-top: 12%;
     font-size: 6rem;
-    color: #5273ff;
+    color: #181818;
 }
 
-.job-subtitle {
-    color: #5273ff;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 2rem;
+.service-block-title {
+    color: #181818;
+    font-size: 3rem;
+    font-family: 'Bubbler One', sans-serif;
 }
 
-.content-block {
-    margin-top: 20%;
+.service-text {
+    color: #181818;
 }

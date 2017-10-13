@@ -9,14 +9,15 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>JM-Webdeign</title>
+    <title>JM-Webdesign</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bubbler+One|Josefin+Sans">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 
 <body>
@@ -28,61 +29,84 @@
     <div id="menu" class="overlay-menu">
         <a href="javascript:void(0)" class="closebtn" onclick="closeMenu()">&times;</a>
         <div class="overlay-content-menu">
-            <a href="#">About</a>
-            <a href="#">Services</a>
-            <a href="#">Clients</a>
-            <a href="#">Contact</a>
+            <a href="#about" onclick="closeMenu()">About</a>
+            <a href="#service" onclick="closeMenu()">Services</a>
+            <a href="#" onclick="closeMenu()">Clients</a>
+            <a href="#" onclick="closeMenu()">Contact</a>
         </div>
     </div>
-    <span class="open-menu" onclick="openMenu()"><i class="material-icons">more_vert</i></span>
+    <span class="w3-hide-small open-menu" onclick="openMenu()">
+        <div class="burger-bar1"></div>
+        <div class="burger-bar2"></div>
+        <div class="burger-bar3"></div>
+    </span>
+    <span class="w3-hide-large open-menu-mobile" onclick="openMenu()"><i class="material-icons service-icon-mobile">more_vert</i></span>
+    <a href="#"><span class="home-link">JM-Webdesign</span></a>
 
     <!-- Hero Section -->
     <div class="hero-image">
         <div class="hero-text">
-            <h1 class="hero-title">Jérôme Mouly</h1>
-            <h4 class="hero-subtitle">Webdesign</h4>
+            <h1 class="hero-title">JM-Webdesign</h1>
         </div>
     </div>
 
-    <!-- Job Section -->
-    <section id="job">
+    <!-- About Section -->
+    <section id="about">
         <div class="w3-row">
-            <div class="w3-third job-left-block">
-                <h1 class="w3-center job-title">Mon Métier</h1>
-            </div>
-            <div class="w3-twothird job-right-block">
-                <div class="w3-half w3-center top-block-left">
-                    <div class="content-block">
-                        <h4 class=""><i class="material-icons job-icon">developer_board</i></h4>
-                        <h4 class="job-subtitle">Webdesign</h4>
-                        <p class="job-text">Création de maquette de site web et/ou application mobile.<br>Prototypage HTML et CSS.</p>
-                    </div>
+            <div class="w3-container w3-center">
+                <div class="w3-half about-left-block">
+                    <h1 class="about-title">A Propos</h1>
                 </div>
-                <div class="w3-half w3-center top-block-right">
-                    <div class="content-block">
-                        <h4 class=""><i class="material-icons job-icon">view_quilt</i></h4>
-                        <h4 class="job-subtitle">UX/UI Design</h4>
-                        <p class="job-text">Travail sur l'ergonomie et l'interface de votre site web et/ou application mobile.</p>
-                    </div>
-                </div>
-                <div class="w3-half w3-center bottom-block-left">
-                    <div class="content-block">
-                        <h4 class=""><i class="material-icons job-icon">devices</i></h4>
-                        <h4 class="job-subtitle">Responsive</h4>
-                        <p class="job-text">Optimisation d'affichage de votre site web et/ou application mobile sur tout type d'écran.</p>
-                    </div>
-                </div>
-                <div class="w3-half w3-center bottom-block-right">
-                    <div class="content-block">
-                        <h4 class=""><i class="material-icons job-icon">insert_comment</i></h4>
-                        <h4 class="job-subtitle">Conseils</h4>
-                        <p class="job-text">Audit de votre site web et/ou application mobile en vue d'optimisation.</p>
+                <div class="w3-half about-right-block">
+                    <div class="w3-container about-text">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque nostrum veniam quisquam aliquam laudantium eos ullam saepe eveniet obcaecati suscipit impedit enim architecto facere nesciunt, reiciendis illo ad? Laboriosam, aperiam.</p>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque nostrum veniam quisquam aliquam laudantium eos ullam saepe eveniet obcaecati suscipit impedit enim architecto facere nesciunt, reiciendis illo ad? Laboriosam, aperiam.</p>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque nostrum veniam quisquam aliquam laudantium eos ullam saepe eveniet obcaecati suscipit impedit enim architecto facere nesciunt, reiciendis illo ad? Laboriosam, aperiam.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- Second Section Parallax -->
+    <div class="second-parallax-image">
+        <!-- <div class="second-parallax-text">
+            <h1 class="hero-title">JM-Webdesign</h1>
+        </div> -->
+    </div>
+
+    <!-- Services Section -->
+    <section id="service">
+        <div class="w3-row">
+            <div class="w3-col s12 m4 l4 w3-center">
+                <h1 class="service-title">Mes Services</h1>
+            </div>
+            <div class="w3-col s12 m8 l8 w3-center">
+                <div class="w3-row">
+                    <div class="w3-half left-top-block">
+                        <h4><i class="material-icons service-icon">developer_board</i></h4>
+                        <h4 class="service-block-title">Webdesign</h4>
+                        <p class="service-text">Création de maquette de site web et/ou application mobile. Prototypage HTML et CSS.</p>
+                    </div>
+                    <div class="w3-half right-top-block">
+                        <h4><i class="material-icons service-icon">view_quilt</i></h4>
+                        <h4 class="service-block-title">UX/UI Design</h4>
+                        <p class="service-text">Travail sur l'ergonomie et l'interface de votre site web et/ou application mobile.</p>
+                    </div>
+                    <div class="w3-half left-bottom-block">
+                        <h4><i class="material-icons service-icon">devices</i></h4>
+                        <h4 class="service-block-title">Responsive</h4>
+                        <p class="service-text">Optimisation d'affichage de votre site web et/ou application mobile sur tout type d'écran.</p>
+                    </div>
+                    <div class="w3-half right-bottom-block">
+                        <h4><i class="material-icons service-icon">comments</i></h4>
+                        <h4 class="service-block-title">Conseils</h4>
+                        <p class="service-text">Audit de votre site web et/ou application mobile en vue d'optimisation.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <script src="js/app.js"></script>
 </body>
