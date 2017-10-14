@@ -147,6 +147,20 @@ html {
 }
 
 
+/* ----- Third Section Parallax ----- */
+
+.third-parallax-image {
+    background-image: url("../images/446525.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    height: 50vh;
+    width: 100%;
+}
+
+
 /* ----- About Section ----- */
 
 #about {
@@ -219,4 +233,33 @@ html {
 
 .service-text {
     color: #181818;
+}
+
+
+/* ----- Portfolio Section ----- */
+
+#portfolio {
+    height: 100vh;
+    background-color: #121212;
+    color: #0099FF;
+}
+
+.portfolio-left-block {
+    background-color: #181818;
+    height: 100vh;
+}
+
+.portfolio-title {
+    font-family: 'Bubbler One', sans-serif;
+    font-size: 6rem;
+    margin-top: 60%;
+}
+
+.portfolio-slider-block {
+    margin-top: 20%;
+}
+
+.portfolio-slider {
+    max-width: 800px;
+    max-height: 400px;
 }
