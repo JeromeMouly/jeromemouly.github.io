@@ -103,6 +103,10 @@ html {
     }
 }
 
+.menu-link a {
+    border-bottom: 1px solid #0099FF;
+}
+
 
 /* ----- Hero Section ----- */
 
