@@ -10,8 +10,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>JM-Webdesign</title>
+    <meta name="description" content="Sidebar Transitions: Transition effects for off-canvas views" />
+    <meta name="keywords" content="transition, off-canvas, navigation, effect, 3d, css3, smooth" />
     <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="images/favicon.ico" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bubbler+One|Josefin+Sans">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -20,33 +21,45 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
     <link rel="stylesheet" href="assets/css/animation.css">
+    <link rel="stylesheet" href="assets/css/normalize.css" />
+    <link rel="stylesheet" href="assets/css/component.css" />
+    <script src="assets/js/modernizr.custom.js"></script>
+    <!--[if lt IE 7]>
+        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
 </head>
 
 <body>
-    <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
 
-    <!-- Menu -->
-    <div id="mySidenav" class="sidenav">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="#">About</a>
-        <a href="#">Services</a>
-        <a href="#">Clients</a>
-        <a href="#">Contact</a>
-    </div>
+    <div id="st-container" class="st-container">
+        <nav class="st-menu st-effect-11" id="menu-11">
+            <h2 class="menu-title">JM - Webdesign</h2>
+            <ul>
+                <li><a class="icon icon-data" href="#">Data Management</a></li>
+                <li><a class="icon icon-location" href="#">Location</a></li>
+                <li><a class="icon icon-study" href="#">Study</a></li>
+                <li><a class="icon icon-photo" href="#">Collections</a></li>
+                <li><a class="icon icon-wallet" href="#">Credits</a></li>
+            </ul>
+        </nav>
 
-    <div id="main">
-        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
-        <div class="hero-image">
-            <div class="hero-text">
-                <h1 class="hero-title text-pop-up-top">JM -Webdesign</h1>
-                <h3 class="hero-subtitle tracking-in-contract">Webdesign - Prototypage - UX/UI Design - Consulting</h3>
+        <div class="st-pusher">
+            <div class="st-content">
+                <div class="st-content-inner">
+                    <header class="hero-text">
+                        <h1 class="hero-title">JM - Webdesign</h1>
+                    </header>
+                    <div class="main clearfix">
+                        <div id="st-trigger-effects" class="column">
+                            <button data-effect="st-effect-11">Scale &amp; rotate pusher</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-
-    <!-- Hero -->
+    <script src="assets/js/classie.js"></script>
+    <script src="assets/js/sidebarEffects.js"></script>
 
 
     <script src="assets/js/app.js"></script>
