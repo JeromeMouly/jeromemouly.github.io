@@ -5,6 +5,17 @@ body {
     background-color: #231f20;
 }
 
+.menu-btn {
+    background: transparent;
+    border: none;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.menu-icon {
+    color: #3b97d3;
+}
+
 .st-content-inner {
     background-image: url('../images/effet-sketch-overlay.jpg');
     height: 100%;
