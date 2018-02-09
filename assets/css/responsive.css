@@ -1,0 +1,5 @@
+@media screen and (max-widh:640px) {
+    .hero-logo {
+        width: 100%;
+    }
+}
