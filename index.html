@@ -32,23 +32,64 @@
     <div id="myNav" class="overlay">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <div class="overlay-content">
-            <a href="#about" onclick="closeNav()">A Propos</a>
-            <a href="#services" onclick="closeNav()">Services</a>
-            <a href="#portfolio" onclick="closeNav()">Portfolio</a>
-            <a href="#contact" onclick="closeNav()">Contact</a>
+            <div class="w3-content w3-container w3-center block-link">
+                <a href="#about" onclick="closeNav()" class="menu-link">A Propos</a>
+                <a href="#services" onclick="closeNav()" class="menu-link">Services</a>
+                <a href="#portfolio" onclick="closeNav()" class="menu-link">Portfolio</a>
+                <a href="#contact" onclick="closeNav()" class="menu-link">Contact</a>
+            </div>
         </div>
     </div>
 
     <span onclick="openNav()" class="openMenu">&#9776;</span>
 
     <!-- Hero -->
-    <div class="hero-image">
+    <div class="hero-image parallax">
         <div class="hero-text">
             <div class="hero-logo">
                 <img src="assets/images/Logo-JM-Webdesign.png" alt="Logo Jérôme Mouly Webdesign">
             </div>
         </div>
     </div>
+
+    <!-- About -->
+    <section id="about">
+        <div class="w3-row">
+            <div class="w3-quarter">
+                <img src="assets/images/moi.png" alt="Photo Jérôme Mouly" class="photo-about">
+            </div>
+            <div class="w3-threequarter">
+                <div class="w3-content w3-container w3-center">
+                    <h2 class="title">A Propos</h2>
+                </div>
+                <div class="w3-content w3-container w3-center about-text">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus esse ipsum nisi delectus possimus! Rerum est quasi natus amet voluptatibus voluptates dignissimos optio quidem veniam porro quam culpa, ullam ratione.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus esse ipsum nisi delectus possimus! Rerum est quasi natus amet voluptatibus voluptates dignissimos optio quidem veniam porro quam culpa, ullam ratione.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus esse ipsum nisi delectus possimus! Rerum est quasi natus amet voluptatibus voluptates dignissimos optio quidem veniam porro quam culpa, ullam ratione.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus esse ipsum nisi delectus possimus! Rerum est quasi natus amet voluptatibus voluptates dignissimos optio quidem veniam porro quam culpa, ullam ratione.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus esse ipsum nisi delectus possimus! Rerum est quasi natus amet voluptatibus voluptates dignissimos optio quidem veniam porro quam culpa, ullam ratione.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Parallax -->
+    <div class="parallax-1"></div>
+
+    <!-- Services -->
+    <section id="services">
+        <div class="w3-row">
+            <div class="w3-content w3-container w3-center">
+                <h2 class="title">Mes Services</h2>
+            </div>
+            <div class="w3-content w3-container w3-center">
+                <div class="w3-half">Test</div>
+                <div class="w3-half">Test</div>
+                <div class="w3-half">Test</div>
+                <div class="w3-half">Test</div>
+            </div>
+        </div>
+    </section>
 
     <script src="assets/js/app.js"></script>
 </body>

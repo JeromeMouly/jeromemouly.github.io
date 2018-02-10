@@ -3,10 +3,15 @@ body {
     height: 100%;
     margin: 0;
     background-color: #110C11;
+    color: #3b97d3;
 }
 
 a {
     text-decoration: none;
+}
+
+section {
+    height: 50%;
 }
 
 
@@ -47,6 +52,14 @@ a {
     color: #f1f1f1;
 }
 
+.block-link {
+    width: 200px;
+}
+
+.menu-link:hover {
+    border-bottom: 1px solid #f1f1f1;
+}
+
 .overlay .closebtn {
     position: absolute;
     top: 20px;
@@ -79,12 +92,13 @@ a {
 }
 
 
-/* ----- Hero ----- */
+/* ----- Hero & Parallax ----- */
 
 .hero-image {
     background-image: url('../images/effet-sketch-overlay.jpg');
     height: 100%;
     background-position: center;
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -97,4 +111,25 @@ a {
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+}
+
+.parallax-1 {
+    background-image: url('../images/Toulouse-nb.jpg');
+    height: 50%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* ----- About ----- */
+
+.photo-about {
+    width: 83%;
+    height: auto;
+}
+
+.about-text {
+    padding-top: 3%;
 }
