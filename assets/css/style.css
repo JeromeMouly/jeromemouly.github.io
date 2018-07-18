@@ -4,6 +4,7 @@ body {
     margin: 0;
     background-color: #110C11;
     color: #3b97d3;
+    font-family: 'Raleway', sans-serif;
 }
 
 a {
@@ -14,6 +15,13 @@ section {
     height: 100%;
 }
 
+.info-separateur {
+    color: #141619;
+}
+
+.info-separateur-2 {
+    color: #437cc0;
+}
 
 /* ----- Menu ----- */
 
@@ -123,13 +131,21 @@ section {
 }
 
 
-/* ----- About ----- */
+/* ----- CV Page ----- */
 
-.photo-about {
-    width: 83%;
-    height: auto;
+.info-colonne   {
+    background-color: #437cc0;
+    color: #141619;
 }
 
-.about-text {
-    padding-top: 10%;
+.photo {
+    width: 100%;
+}
+
+.skills {
+    font-family: 'Shrikhand', cursive;
+}
+
+.exp-title {
+    font-family: 'Shrikhand', cursive;
 }
