@@ -133,19 +133,17 @@ section {
 
 /* ----- CV Page ----- */
 
-.info-colonne   {
+.sidebar {
     background-color: #437cc0;
-    color: #141619;
+    height: 100vh;
 }
 
-.photo {
-    width: 100%;
+.expbar {
+    background-color: #141619;
+    height: 100vh;
 }
 
-.skills {
-    font-family: 'Shrikhand', cursive;
-}
-
-.exp-title {
-    font-family: 'Shrikhand', cursive;
+.formabar {
+    background-color: #437cc0;
+    height: 100vh;
 }
