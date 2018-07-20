@@ -136,6 +136,28 @@ section {
 .cv {
     background-color: #141619;
 }
+
+.header-cv {
+    background-color: #f1f1f1;
+    height: 200px;
+    position: relative;
+}
+
+.name-title {
+    position: absolute;
+    left: 600px;
+    font-family: 'Shrikhand', cursive;
+    font-size: 60px;
+}
+
+.function-title {
+    position: absolute;
+    left: 600px;
+    font-size: 40px;
+    font-weight: 400;
+    color: #141619;
+}
+
 .sidebar {
     background-color: #141619;
     height: 100%;
