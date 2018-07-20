@@ -133,17 +133,41 @@ section {
 
 /* ----- CV Page ----- */
 
-.sidebar {
-    background-color: #437cc0;
-    height: 100vh;
-}
-
-.expbar {
+.cv {
     background-color: #141619;
-    height: 100vh;
+}
+.sidebar {
+    background-color: #141619;
+    height: 100%;
 }
 
-.formabar {
+.photo {
+    width: 177px;
+    height: 236px;
+    border: #437cc0 5px solid;
+}
+
+.contact-title {
+    overflow: hidden;
+    text-align: center;
+    color: #f1f1f1;
+    font-weight: 200;
+}
+.contact-title:before,
+.contact-title:after {
     background-color: #437cc0;
-    height: 100vh;
+    content: "";
+    display: inline-block;
+    height: 4px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+.contact-title:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+.contact-title:after {
+    left: 0.5em;
+    margin-right: -50%;
 }
