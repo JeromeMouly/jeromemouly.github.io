@@ -133,50 +133,70 @@ section {
 
 /* ----- CV Page ----- */
 
-.cv {
+#cv {
     background-color: #141619;
+    color: #f1f1f1;
 }
 
 .header-cv {
-    background-color: #f1f1f1;
-    height: 200px;
+    background-color: #fff;
+    height: 250px;
     position: relative;
+}
+
+.photo {
+    position: absolute;
+    width: 177px;
+    height: auto;
+    border: #437cc0 5px solid;
+    left: 75px;
+    top: 115px;
 }
 
 .name-title {
     position: absolute;
-    left: 600px;
+    left: 620px;
     font-family: 'Shrikhand', cursive;
+    color: #437cc0;
     font-size: 60px;
 }
 
-.function-title {
+.poste-title {
     position: absolute;
-    left: 600px;
+    left: 620px;
+    color: #141619;
     font-size: 40px;
     font-weight: 400;
-    color: #141619;
 }
 
 .sidebar {
     background-color: #141619;
     height: 100%;
+    margin-top: 100px;
 }
 
-.photo {
-    width: 177px;
-    height: 236px;
-    border: #437cc0 5px solid;
-}
-
-.contact-title {
+.contact-title,
+.skills-title {
     overflow: hidden;
     text-align: center;
     color: #f1f1f1;
     font-weight: 200;
 }
+
+.skills {
+    padding-top: 100px;
+}
+
+.skills-text {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
 .contact-title:before,
-.contact-title:after {
+.contact-title:after,
+.skills-title:before,
+.skills-title:after,
+.exp-title:after {
     background-color: #437cc0;
     content: "";
     display: inline-block;
@@ -185,11 +205,78 @@ section {
     vertical-align: middle;
     width: 50%;
 }
-.contact-title:before {
+.contact-title:before,
+.skills-title:before {
     right: 0.5em;
     margin-left: -50%;
 }
-.contact-title:after {
+.contact-title:after,
+.skills-title:after,
+.exp-title:after {
     left: 0.5em;
     margin-right: -50%;
+}
+
+.contact-phone, .contact-mail {
+    padding-top: 50px;
+}
+
+.adresse {
+    position: relative;
+    background-color: #437cc0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.location {
+    padding-top: 11px;
+    font-size: 2rem;
+    color: #f1f1f1;
+    text-align: center;
+}
+
+.phone-number {
+    position: relative;
+    background-color: #437cc0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.phone {
+    padding-top: 11px;
+    font-size: 2rem;
+    color: #f1f1f1;
+    text-align: center;
+}
+
+.web {
+    position: relative;
+    background-color: #437cc0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.mail {
+    padding-top: 11px;
+    font-size: 2rem;
+    color: #f1f1f1;
+    text-align: center;
+}
+
+.about {
+    height: 250px;
+    background-color: #437cc0;
+}
+
+.expbar {
+    background-color: #fff;
+}
+
+.exp-title {
+    font-family: 'Shrikhand', cursive;
+    color: #141619;
+    padding-left: 100px;
 }
