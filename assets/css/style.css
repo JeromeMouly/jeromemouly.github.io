@@ -280,3 +280,22 @@ section {
     color: #141619;
     padding-left: 100px;
 }
+
+.first-date-exp {
+    color: #437cc0;
+    font-weight: 400;
+    padding-left: 100px;
+}
+
+.first-exp {
+    color: #141619;
+    font-weight: 900;
+}
+
+.city-exp {
+    font-weight: 400;
+}
+
+.exp-text {
+    color: #141619;
+}
