@@ -131,6 +131,10 @@ section {
     background-size: cover;
 }
 
+.cv-btn {
+    left: 50%;
+}
+
 
 /* ----- CV Page ----- */
 
