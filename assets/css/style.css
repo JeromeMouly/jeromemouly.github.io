@@ -140,6 +140,14 @@ section {
     position: relative;
 }
 
+.btn-cv-commerce {
+    position: absolute;
+    left: 620px;
+    background-color: transparent;
+    border: #437cc0 2px solid;
+    color: #437cc0;
+}
+
 .photo {
     position: absolute;
     width: 177px;
