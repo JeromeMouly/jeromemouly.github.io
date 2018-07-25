@@ -152,6 +152,15 @@ section {
     color: #437cc0;
 }
 
+.btn-dl-webdesign,
+.btn-dl-commerce {
+    position: absolute;
+    left: 850px;
+    background-color: transparent;
+    border: #437cc0 2px solid;
+    color: #437cc0;
+}
+
 .photo {
     position: absolute;
     width: 177px;
