@@ -72,6 +72,7 @@ section {
     color: #141619;
     font-size: 40px;
     font-weight: 400;
+    font-family: 'Raleway', sans-serif;
   }
   
   .sidebar {
@@ -87,6 +88,7 @@ section {
     text-align: center;
     color: #f1f1f1;
     font-weight: 200;
+    font-family: 'Raleway', sans-serif;
   }
   
   .skills,
@@ -231,6 +233,7 @@ section {
     color: #437cc0;
     font-weight: 400;
     padding-left: 100px;
+    font-family: 'Raleway', sans-serif;
   }
   
   .first-exp,
@@ -241,6 +244,7 @@ section {
   .sixth-exp {
     color: #141619;
     font-weight: 900;
+    font-family: 'Raleway', sans-serif;
   }
   
   .city-exp {
@@ -274,7 +278,7 @@ section {
 
 /* ----- Back to Top ----- */
 
-#myBtn {
+#myBtnHome {
   display: none;
   position: fixed;
   bottom: 20px;
@@ -290,7 +294,7 @@ section {
   border-radius: 50%;
 }
 
-#myBtn:hover {
+#myBtnHome:hover {
   background-color: #141619;
   color: #437CC0;
 }
