@@ -156,3 +156,14 @@ footer.page-footer {
       right: 35px;
   }
 }
+
+
+#about {
+  background-color: #141619;
+  color: #437cc0;
+  font-family: 'Raleway', sans-serif;
+}
+
+.about-title {
+  font-family: 'Shrikhand', cursive;
+}
