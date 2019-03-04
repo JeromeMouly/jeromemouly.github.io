@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900|Shrikhand');
+
+/* 
+font-family: 'Shrikhand', cursive;
+font-family: 'Raleway', sans-serif;
+*/
+
+html {
+    scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Shrikhand', cursive;
+    color: #3B97D3;
+}
+
+h4,
+h5,
+h6 {
+    font-family: 'Raleway', sans-serif;
+}
+
+body,
+html {
+    height: 100%;
+    background-color: #080808;
+    color: #FFFFFF;
+    line-height: 1.8;
+    font-family: 'Raleway', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+hr.divider {
+    opacity: 0.25;
+}
+
+.photo-cv {
+    width: 100%;
+    height: auto;
+    background-color: #080808;
+    -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 95%, 50% 100%, 0 95%, 0 0);
+    clip-path: polygon(50% 0%, 100% 0, 100% 95%, 50% 100%, 0 95%, 0 0);
+}
+
+.info-block {
+    background-color: #3B97D3;
+    color: #080808;
+}
+
+.exp-sellers,
+.graduate-sellers {
+    text-align: right;
+}
+
+/* ----- FOOTER ----- */
+
+footer {
+    background-color: #3B97D3;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-block {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-section {
+    position: relative;
+    margin-top: -100px;
+    padding-bottom: 25px;
+}
+
+.network-icon {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    padding: 20px 40px;
+    color: white;
+    font-size: 3rem;
+    background: transparent;
+    border: none;
+    overflow: hidden;
+}
+
+.network-icon:hover {
+    color: #080808;
+}
+
+.network-icon:hover span:nth-child(odd) {
+    background-color: #080808 !important;
+}
+
+.network-icon:hover span:nth-child(even) {
+    background-color: #080808 !important;
+}
+
+.network-icon span:nth-child(odd) {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    transition: 0.5s ease-in-out;
+}
+
+.network-icon span:nth-child(1) {
+    top: 0;
+    left: 50%;
+}
+
+.network-icon span:nth-child(3) {
+    bottom: 0;
+    right: 50%;
+}
+
+.network-icon:hover span:nth-child(1) {
+    top: 0;
+    left: -50%;
+}
+
+.network-icon:hover span:nth-child(3) {
+    bottom: 0;
+    right: -50%;
+}
+
+.network-icon span:nth-child(even) {
+    position: absolute;
+    display: block;
+    width: 2px;
+    height: 100%;
+    background-color: white;
+    transition: 0.5s ease-in-out;
+}
+
+.network-icon span:nth-child(2) {
+    top: 50%;
+    left: 0;
+}
+
+.network-icon span:nth-child(4) {
+    bottom: 50%;
+    right: 0;
+}
+
+.network-icon:hover span:nth-child(2) {
+    top: -50%;
+    left: 0;
+}
+
+.network-icon:hover span:nth-child(4) {
+    bottom: -50%;
+    right: 0;
+}
+
+/* ----- END FOOTER ----- */
+
+
+/* ----- EXP PRO ----- */
+
+.exp-title,
+.exp-date {
+    font-family: 'Raleway', sans-serif;
+}
+
+/* ----- END EXP PRO ----- */

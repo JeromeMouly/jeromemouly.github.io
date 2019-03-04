@@ -1,188 +1,327 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>Jérôme Mouly - Web Design</title>
-  <link rel="icon" href="images/favicon.ico" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Shrikhand|Raleway">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-  <!-- CSS  -->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="css/animation.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Jérôme Mouly || Web Design</title>
+  <meta name="description" content="" />
+  <meta name="author" content="JérômeMouly" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="assets/images/favicon.ico" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <link rel="stylesheet" href="assets/css/responsive.css" />
+  <link rel="stylesheet" href="assets/css/animation.css" />
+  <link rel="stylesheet" href="assets/css/scrollbar.css" />
 </head>
+
 <body>
+  <!-- Back to Top Btn-->
+  <button onclick="topFunction()" id="myBtn" title="Go to top">
+    <i class="fa fa-arrow-up"></i>
+  </button>
+
+  <!-- MENU -->
   <div id="myNav" class="overlay">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
     <div class="overlay-content">
-        <div class="container block-link">
-            <a href="#about" onclick="closeNav()" class="menu-link">A Propos</a>
-            <a href="#services" onclick="closeNav()" class="menu-link">Services</a>
-            <a href="#portfolio" onclick="closeNav()" class="menu-link">Portfolio</a>
-            <a href="#contact" onclick="closeNav()" class="menu-link">Contact</a>
-        </div>
-    </div>
-</div>
-
-<span onclick="openNav()" class="openMenu">&#9776;</span>
-
-  <div id="index-banner" class="parallax-container overlay-hero">
-    <div class="section no-pad-bot">
-      <div class="container logo-hero">
-        <br><br>
-        <!-- <h1 class="header center teal-text text-lighten-2">Parallax Template</h1> -->
-        <div class="center">
-          <img src="images/Logo-JM-Webdesign.png" alt="logo Jérôme Mouly Webdesign">
-        </div>
-        <div class="row center btn-cv">
-          <a href="cv.html" id="download-button" class="btn-flat btn-large waves-effect waves-teal cv-btn">Mon Parcours</a>
-        </div>
-        <br><br>
-
-      </div>
-    </div>
-    <div class="parallax kenburns-bottom"><img src="images/effet-sketch.JPG" alt="Unsplashed background img 1"></div>
-  </div>
-
-
-  <!-- <div id="about">
-    <div class="section">
-      <div class="row">
-        <div class="col s12 center">
-          <div class="container">
-              <h2 class="about-title">A Propos</h2>
-          </div>
-          <div class="container about-text">
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae, harum voluptate quidem autem eligendi delectus accusamus molestias voluptatibus suscipit accusantium consectetur rerum ducimus eos. Et eius quasi accusantium. Sunt, laborum.</p>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae, harum voluptate quidem autem eligendi delectus accusamus molestias voluptatibus suscipit accusantium consectetur rerum ducimus eos. Et eius quasi accusantium. Sunt, laborum.</p>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae, harum voluptate quidem autem eligendi delectus accusamus molestias voluptatibus suscipit accusantium consectetur rerum ducimus eos. Et eius quasi accusantium. Sunt, laborum.</p>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae, harum voluptate quidem autem eligendi delectus accusamus molestias voluptatibus suscipit accusantium consectetur rerum ducimus eos. Et eius quasi accusantium. Sunt, laborum.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div> -->
-
-
-  <!-- <div class="container">
-    <div class="section"> -->
-
-      <!--   Icon Section   -->
-      <!-- <div class="row">
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
-            <h5 class="center">Speeds up development</h5>
-
-            <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
-          </div>
-        </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">group</i></h2>
-            <h5 class="center">User Experience Focused</h5>
-
-            <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
-          </div>
-        </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
-            <h5 class="center">Easy to work with</h5>
-
-            <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-
-
-  <div class="parallax-container valign-wrapper overlay-hero">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
-        </div>
-      </div>
-    </div>
-    <div class="parallax"><img src="images/effet-sketch.JPG" alt="Unsplashed background img 2"></div>
-  </div>
-
-  <div class="container">
-    <div class="section">
-
-      <div class="row">
-        <div class="col s12 center">
-          <h3><i class="mdi-content-send brown-text"></i></h3>
-          <h4>Contact Us</h4>
-          <p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
-        </div>
-      </div>
-
-    </div>
-  </div>
-
-
-  <div class="parallax-container valign-wrapper overlay-hero">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
-        </div>
-      </div>
-    </div>
-    <div class="parallax"><img src="images/effet-sketch.JPG" alt="Unsplashed background img 3"></div>
-  </div>
-
-  <footer class="page-footer teal">
-    <div class="container">
-      <div class="row">
-        <div class="col l6 s12">
-          <h5 class="white-text">Company Bio</h5>
-          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
-
-
-        </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Settings</h5>
+      <div class="wrapper">
+        <nav>
           <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
+            <li>
+              <a href=""><a href="#home" class="menu-link" onclick="closeNav()">Home</a></a>
+            </li>
+            <li>
+              <a href=""><a href="#about" class="menu-link" onclick="closeNav()">About</a></a>
+            </li>
+            <li>
+              <a href=""><a href="#portfolio" class="menu-link" onclick="closeNav()">Portfolio</a></a>
+            </li>
+            <li>
+              <a href=""><a href="#contact" class="menu-link" onclick="closeNav()">Contact</a></a>
+            </li>
           </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+
+  <span onclick="openNav()" class="openMenu">&#9776;</span>
+
+  <!-- First Parallax Image with Logo Text -->
+  <div class="bgimg-1 w3-display-container w3-hide-large" id="home">
+    <div class="w3-display-middle" style="white-space:nowrap;">
+      <span class="w3-center">
+        <img src="assets/images/Logo-JM-Webdesign.png" alt="Logo Jérôme Mouly Webdesign" class="hero-logo kenburns-bottom" />
+      </span>
+    </div>
+  </div>
+
+  <section id="hero" class="w3-content w3-hide-small w3-hide-medium">
+    <div class="hero-image">
+      <div class="photo-hero-1"></div>
+      <div class="photo-hero-2"></div>
+      <div class="photo-hero-3"></div>
+      <div class="photo-hero-4"></div>
+      <div class="photo-hero-5"></div>
+    </div>
+    <div class="hero-text">Jérôme<br />Mouly</div>
+    <div class="hero-subtitle">Web Designer || UI Designer</div>
+  </section>
+
+  <!-- Container (About Section) -->
+  <div class="w3-content w3-container w3-padding-64" id="about">
+    <h2 class="w3-center">ABOUT ME</h2>
+    <p class="w3-center"><em>I love photography</em></p>
+    <p class="w3-justify">
+      We have created a fictional "personal" website/blog, and our fictional
+      character is a hobby photographer. Lorem ipsum dolor sit amet,
+      consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+      et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+      exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+      dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+      consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+      et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+      exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    </p>
+    <div class="w3-row">
+      <div class="w3-col m6 w3-center w3-padding-large">
+        <img src="assets/images/moi.png" class="w3-image w3-opacity w3-hover-opacity-off about-photo" alt="Photo de Jérôme Mouly" />
+      </div>
+
+      <!-- Hide this text on small devices -->
+      <div class="w3-col m6 w3-hide-small w3-padding-large">
+        <p class="w3-justify">
+          Welcome to my website. I am lorem ipsum consectetur adipiscing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+          nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum consectetur
+          adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+          dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+          exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat.
+        </p>
+      </div>
+    </div>
+    <div class="w3-container about-skills">
+      <h3 class="w3-large w3-center w3-padding-16 about-skills-title">
+        Quelques compétences
+      </h3>
+      <div class="w3-half w3-center skills-left">
+        <h4 class="w3-large w3-center w3-padding-16 about-skills-title">
+          Digitales
+        </h4>
+        - PHOTOSHOP - ILLUSTRATOR - INDESIGN - ADOBE XD - PREMIERE PRO - HTML
+        / CSS - FRAMEWORK CSS - WORDPRESS - COMMUNITY MANAGEMENT - RESEAUX
+        SOCIAUX - COMMUNICATION - GESTION DE PROJET -
+      </div>
+      <div class="w3-half w3-center skills-right">
+        <h4 class="w3-large w3-center w3-padding-16 about-skills-title">
+          Commerciales
+        </h4>
+        - CONSEIL CLIENT - RELATION CLIENT - MANAGEMENT - MARKETING -
+        COMMUNICATION - GESTION DES STOCKS - GESTION DE DOSSIERS -
+        MERCHANDISING - BUSINESS DEVELOPMENT -
+      </div>
+    </div>
+  </div>
+
+  <div class="download-btn-block">
+    <div class="download-btn">
+      <a href="cv.html" class="w3-padding-large w3-margin-top">
+        Mon CV
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </a>
+    </div>
+  </div>
+
+  <!-- Second Parallax -->
+  <div class="bgimg-2 w3-display-container">
+    <div class="w3-display-middle">
+      <span class="w3-xxlarge w3-text-white w3-wide">PORTFOLIO</span>
+    </div>
+  </div>
+
+  <!-- Portfolio -->
+  <div class="w3-content w3-container w3-padding-64" id="portfolio">
+    <h3 class="w3-center">Portfolio</h3>
+    <p class="w3-center">
+      <em>Vous retrouverez ici une partie de mes réalisations.<br />
+        Cliquez ur l'image pour en voir plus.</em>
+    </p>
+    <br />
+    <div class="w3-row-padding w3-center">
+      <div class="w3-col m3">
+        <img src="assets/images/jsandco-redesignv2.png" style="width:100%; padding:5px;" onclick="onClick(this)" class="w3-hover-opacity"
+          alt="The mist over the mountains" />
+      </div>
+
+      <div class="w3-col m3">
+        <img src="assets/images/jsandco-redesignv2.png" style="width:100%; padding:5px;" onclick="onClick(this)" class="w3-hover-opacity"
+          alt="Coffee beans" />
+      </div>
+
+      <div class="w3-col m3">
+        <img src="assets/images/jsandco-redesignv2.png" style="width:100%; padding:5px;" onclick="onClick(this)" class="w3-hover-opacity"
+          alt="Bear closeup" />
+      </div>
+
+      <div class="w3-col m3">
+        <img src="assets/images/jsandco-redesignv2.png" style="width:100%; padding:5px;" onclick="onClick(this)" class="w3-hover-opacity"
+          alt="Quiet ocean" />
+      </div>
+    </div>
+
+    <div class="w3-row-padding w3-center w3-section">
+      <div class="w3-col m3">
+        <img src="assets/images/jsandco-redesignv2.png" style="width:100%; padding:5px;" onclick="onClick(this)" class="w3-hover-opacity"
+          alt="The mist" />
+      </div>
+
+      <div class="w3-col m3">
+        <img src="assets/images/jsandco-redesignv2.png" style="width:100%; padding:5px;" onclick="onClick(this)" class="w3-hover-opacity"
+          alt="My beloved typewriter" />
+      </div>
+
+      <div class="w3-col m3">
+        <img src="assets/images/jsandco-redesignv2.png" style="width:100%; padding:5px;" onclick="onClick(this)" class="w3-hover-opacity"
+          alt="Empty ghost train" />
+      </div>
+
+      <div class="w3-col m3">
+        <img src="assets/images/jsandco-redesignv2.png" style="width:100%; padding:5px;" onclick="onClick(this)" class="w3-hover-opacity"
+          alt="Sailing" />
+      </div>
+    </div>
+  </div>
+  <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+    <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image" />
+      <p id="caption" class="w3-opacity w3-large"></p>
+    </div>
+  </div>
+
+  <!-- Third Parallax -->
+  <div class="bgimg-3 w3-display-container">
+    <div class="w3-display-middle">
+      <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
+    </div>
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-padding-32 w3-content w3-text-grey" id="contact" style="margin-bottom:64px">
+    <h3 class="w3-center">Contact</h3>
+    <p class="w3-center"><em>Envie d'en savoir un peu plus sur moi !!</em></p>
+    <div class="w3-section w3-center contact-block">
+      <div class="w3-third contact-section">
+        <i class="fa fa-map-marker contact-icon">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </i>
+        <div class="contact-text-block">
+          <p class="contact-text">Toulouse</p>
         </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Connect</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
+      </div>
+      <div class="w3-third w3-center contact-section">
+        <i class="fa fa-phone contact-icon">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </i>
+        <div class="contact-text-block">
+          <p class="contact-text">06 17 24 51 14</p>
+        </div>
+      </div>
+      <div class="w3-third w3-center contact-section">
+        <i class="fa fa-envelope-o contact-icon">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </i>
+        <div class="contact-text-block">
+          <p class="contact-text">mouly.jerome@gmail.com</p>
         </div>
       </div>
     </div>
-    <div class="footer-copyright">
-      <div class="container">
-      Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+  </div>
+  <div class="contact-maps">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4859.133121381536!2d1.4454400977626627!3d43.6011727731884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12aebb6fec7552ff%3A0x406f69c2f411030!2sToulouse!5e0!3m2!1sfr!2sfr!4v1549040644329"
+      width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+  </div>
+
+  <!-- Footer -->
+  <footer class="w3-center w3-padding-32">
+    <div class="w3-content w3-container" style="margin-bottom:64px">
+      <div class="w3-section w3-center footer-block">
+        <div class="w3-quarter footer-section">
+          <a href="https://www.linkedin.com/in/jerome-mouly-49188833/" target="_blank">
+            <i class="fa fa-linkedin network-icon">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </i>
+          </a>
+          <div class="contact-text-block"></div>
+        </div>
+        <div class="w3-quarter w3-center footer-section">
+          <a href="https://twitter.com/JeromeMouly" target="_blank">
+            <i class="fa fa-twitter network-icon">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </i>
+          </a>
+          <div class="contact-text-block"></div>
+        </div>
+        <div class="w3-quarter w3-center footer-section">
+          <a href="https://www.facebook.com/JeromeMoulyWebdesign/" target="_blank">
+            <i class="fa fa-facebook-f network-icon">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </i>
+          </a>
+          <div class="contact-text-block"></div>
+        </div>
+        <div class="w3-quarter w3-center footer-section">
+          <a href="https://github.com/JeromeMouly" target="_blank">
+            <i class="fa fa-github network-icon">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </i>
+          </a>
+          <div class="contact-text-block"></div>
+        </div>
       </div>
     </div>
-  </footer> -->
+  </footer>
 
+  <script src="assets/js/app.js" async defer></script>
+</body>
 
-  <!--  Scripts-->
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="js/materialize.min.js"></script>
-  <script src="js/init.js"></script>
-  <script src="js/app.js"></script>
-
-  </body>
 </html>
